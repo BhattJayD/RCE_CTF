@@ -1,0 +1,38 @@
+Arguments: 
+  /snap/node/7823/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /home/splitunknown/bin:/home/splitunknown/bin:/home/splitunknown/.local/bin:/home/splitunknown/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/splitunknown/Android/Sdk/emulator:/home/splitunknown/Android/Sdk/platform-tools:/home/splitunknown/Android/Sdk/emulator:/home/splitunknown/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 2606:4700::6810:1a22:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+
+npm manifest: 
+  {
+    "name": "commandinjection",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
